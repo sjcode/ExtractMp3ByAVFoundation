@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3604F816AFE96E0096CD38 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3604F716AFE96E0096CD38 /* Cocoa.framework */; };
+		8E36050216AFE96E0096CD38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E36050016AFE96E0096CD38 /* InfoPlist.strings */; };
+		8E36050416AFE96E0096CD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36050316AFE96E0096CD38 /* main.m */; };
+		8E36050816AFE96E0096CD38 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8E36050616AFE96E0096CD38 /* Credits.rtf */; };
+		8E36050B16AFE96E0096CD38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36050A16AFE96E0096CD38 /* AppDelegate.m */; };
+		8E36050E16AFE96E0096CD38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36050C16AFE96E0096CD38 /* MainMenu.xib */; };
+		8E36051516AFE9800096CD38 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E36051416AFE9800096CD38 /* AVFoundation.framework */; };
+		8E36051816AFE9F10096CD38 /* ExtractMp3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36051716AFE9F10096CD38 /* ExtractMp3.m */; };
+		8E36052516B094070096CD38 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E36052416B094070096CD38 /* CoreMedia.framework */; };
+		8E36052D16B0D6CD0096CD38 /* MediaProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36052C16B0D6CD0096CD38 /* MediaProgressBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E3604F316AFE96E0096CD38 /* ExtractMp3ByAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtractMp3ByAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3604F716AFE96E0096CD38 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8E3604FA16AFE96E0096CD38 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8E3604FB16AFE96E0096CD38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E3604FC16AFE96E0096CD38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E3604FF16AFE96E0096CD38 /* ExtractMp3ByAVFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtractMp3ByAVFoundation-Info.plist"; sourceTree = "<group>"; };
+		8E36050116AFE96E0096CD38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E36050316AFE96E0096CD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E36050516AFE96E0096CD38 /* ExtractMp3ByAVFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtractMp3ByAVFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		8E36050716AFE96E0096CD38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8E36050916AFE96E0096CD38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E36050A16AFE96E0096CD38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E36050D16AFE96E0096CD38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8E36051416AFE9800096CD38 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8E36051616AFE9F10096CD38 /* ExtractMp3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractMp3.h; sourceTree = "<group>"; };
+		8E36051716AFE9F10096CD38 /* ExtractMp3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractMp3.m; sourceTree = "<group>"; };
+		8E36052416B094070096CD38 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8E36052B16B0D6CD0096CD38 /* MediaProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaProgressBar.h; sourceTree = "<group>"; };
+		8E36052C16B0D6CD0096CD38 /* MediaProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaProgressBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3604F016AFE96E0096CD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36052516B094070096CD38 /* CoreMedia.framework in Frameworks */,
+				8E36051516AFE9800096CD38 /* AVFoundation.framework in Frameworks */,
+				8E3604F816AFE96E0096CD38 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3604E816AFE96E0096CD38 = {
+			isa = PBXGroup;
+			children = (
+				8E3604FD16AFE96E0096CD38 /* ExtractMp3ByAVFoundation */,
+				8E3604F616AFE96E0096CD38 /* Frameworks */,
+				8E3604F416AFE96E0096CD38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3604F416AFE96E0096CD38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3604F316AFE96E0096CD38 /* ExtractMp3ByAVFoundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3604F616AFE96E0096CD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E36052416B094070096CD38 /* CoreMedia.framework */,
+				8E36051416AFE9800096CD38 /* AVFoundation.framework */,
+				8E3604F716AFE96E0096CD38 /* Cocoa.framework */,
+				8E3604F916AFE96E0096CD38 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E3604F916AFE96E0096CD38 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E3604FA16AFE96E0096CD38 /* AppKit.framework */,
+				8E3604FB16AFE96E0096CD38 /* CoreData.framework */,
+				8E3604FC16AFE96E0096CD38 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8E3604FD16AFE96E0096CD38 /* ExtractMp3ByAVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				8E36051616AFE9F10096CD38 /* ExtractMp3.h */,
+				8E36051716AFE9F10096CD38 /* ExtractMp3.m */,
+				8E36050916AFE96E0096CD38 /* AppDelegate.h */,
+				8E36050A16AFE96E0096CD38 /* AppDelegate.m */,
+				8E36050C16AFE96E0096CD38 /* MainMenu.xib */,
+				8E3604FE16AFE96E0096CD38 /* Supporting Files */,
+				8E36052B16B0D6CD0096CD38 /* MediaProgressBar.h */,
+				8E36052C16B0D6CD0096CD38 /* MediaProgressBar.m */,
+			);
+			path = ExtractMp3ByAVFoundation;
+			sourceTree = "<group>";
+		};
+		8E3604FE16AFE96E0096CD38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E3604FF16AFE96E0096CD38 /* ExtractMp3ByAVFoundation-Info.plist */,
+				8E36050016AFE96E0096CD38 /* InfoPlist.strings */,
+				8E36050316AFE96E0096CD38 /* main.m */,
+				8E36050516AFE96E0096CD38 /* ExtractMp3ByAVFoundation-Prefix.pch */,
+				8E36050616AFE96E0096CD38 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3604F216AFE96E0096CD38 /* ExtractMp3ByAVFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E36051116AFE96E0096CD38 /* Build configuration list for PBXNativeTarget "ExtractMp3ByAVFoundation" */;
+			buildPhases = (
+				8E3604EF16AFE96E0096CD38 /* Sources */,
+				8E3604F016AFE96E0096CD38 /* Frameworks */,
+				8E3604F116AFE96E0096CD38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtractMp3ByAVFoundation;
+			productName = ExtractMp3ByAVFoundation;
+			productReference = 8E3604F316AFE96E0096CD38 /* ExtractMp3ByAVFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3604EA16AFE96E0096CD38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sj;
+			};
+			buildConfigurationList = 8E3604ED16AFE96E0096CD38 /* Build configuration list for PBXProject "ExtractMp3ByAVFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E3604E816AFE96E0096CD38;
+			productRefGroup = 8E3604F416AFE96E0096CD38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3604F216AFE96E0096CD38 /* ExtractMp3ByAVFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3604F116AFE96E0096CD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36050216AFE96E0096CD38 /* InfoPlist.strings in Resources */,
+				8E36050816AFE96E0096CD38 /* Credits.rtf in Resources */,
+				8E36050E16AFE96E0096CD38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3604EF16AFE96E0096CD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36050416AFE96E0096CD38 /* main.m in Sources */,
+				8E36050B16AFE96E0096CD38 /* AppDelegate.m in Sources */,
+				8E36051816AFE9F10096CD38 /* ExtractMp3.m in Sources */,
+				8E36052D16B0D6CD0096CD38 /* MediaProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E36050016AFE96E0096CD38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E36050116AFE96E0096CD38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E36050616AFE96E0096CD38 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E36050716AFE96E0096CD38 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8E36050C16AFE96E0096CD38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E36050D16AFE96E0096CD38 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E36050F16AFE96E0096CD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E36051016AFE96E0096CD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E36051216AFE96E0096CD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExtractMp3ByAVFoundation/ExtractMp3ByAVFoundation-Prefix.pch";
+				INFOPLIST_FILE = "ExtractMp3ByAVFoundation/ExtractMp3ByAVFoundation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E36051316AFE96E0096CD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExtractMp3ByAVFoundation/ExtractMp3ByAVFoundation-Prefix.pch";
+				INFOPLIST_FILE = "ExtractMp3ByAVFoundation/ExtractMp3ByAVFoundation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3604ED16AFE96E0096CD38 /* Build configuration list for PBXProject "ExtractMp3ByAVFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36050F16AFE96E0096CD38 /* Debug */,
+				8E36051016AFE96E0096CD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E36051116AFE96E0096CD38 /* Build configuration list for PBXNativeTarget "ExtractMp3ByAVFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36051216AFE96E0096CD38 /* Debug */,
+				8E36051316AFE96E0096CD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3604EA16AFE96E0096CD38 /* Project object */;
+}
